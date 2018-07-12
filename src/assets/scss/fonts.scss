@@ -1,0 +1,76 @@
+$font-dir: "./assets/fonts/";
+
+@font-face {
+    font-family: 'OstrichSansRegular';
+    src: url('#{$font-dir}ostrich-regular-webfont.woff2') format('woff2'),
+        url('#{$font-dir}ostrich-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OstrichSansBlack';
+    src: url('#{$font-dir}ostrichsans-black-webfont.woff2') format('woff2'),
+        url('#{$font-dir}ostrichsans-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'OstrichSansBold';
+    src: url('#{$font-dir}ostrichsans-bold-webfont.woff2') format('woff2'),
+        url('#{$font-dir}ostrichsans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OstrichSansDashedMedium';
+    src: url('#{$font-dir}ostrichsansdashed-medium-webfont.woff2') format('woff2'),
+        url('#{$font-dir}ostrichsansdashed-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OstrichSansHeavy';
+    src: url('#{$font-dir}ostrichsans-heavy-webfont.woff2') format('woff2'),
+        url('#{$font-dir}ostrichsans-heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'OstrichSansLight';
+    src: url('#{$font-dir}ostrichsans-light-webfont.woff2') format('woff2'),
+        url('#{$font-dir}ostrichsans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'OstrichSansMedium';
+    src: url('#{$font-dir}ostrichsans-medium-webfont.woff2') format('woff2'),
+        url('#{$font-dir}ostrichsans-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OstrichSansRoundedMedium';
+    src: url('#{$font-dir}ostrichsansrounded-medium-webfont.woff2') format('woff2'),
+        url('#{$font-dir}ostrichsansrounded-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -1,20 +1,28 @@
 <template>
   <div id="app">
-    <b-navbar type="dark" variant="dark" fixed="bottom">
+    <b-container class="justify-content-between">
+      <b-navbar type="dark" variant="dark" fixed="bottom">
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-        <b-navbar-brand href="#">SmartMirror</b-navbar-brand>
+        <clock></clock>
+        <b-navbar-brand href="#">SmartMirror</b-navbar-brand>  
         <b-collapse is-nav id="nav-collapse">
           <b-navbar-nav>
             <b-nav-item href="#"><i class="far fa-check-circle"></i> Todoist</b-nav-item>
           </b-navbar-nav>
         </b-collapse>
       </b-navbar>
+    </b-container>
   </div>
 </template>
 
 <script>
+import Clock from './Clock'
+
 export default {
-  name: 'Navbar'
+  name: 'Navbar',
+  components: {
+    Clock
+  }
 }
 </script>
 

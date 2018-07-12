@@ -1,6 +1,6 @@
 <template>
-    <div class="d-flex justify-content-center p-2" id="clock">
-        <h1 class="time display-1 shadow" v-text="currentTime"></h1>
+    <div class="d-flex justify-content-center align-items-center" id="clock">
+        <h3 href="#" class="time m-0" v-text="currentTime"></h3>
     </div>
 </template>
 
@@ -11,7 +11,7 @@
         name: 'Clock',
         methods: {
             updateCurrentTime() {
-                this.currentTime = moment().format('LTS');
+                this.currentTime = moment().format('hh:mm A');
             }
         },
         data() {
@@ -21,7 +21,7 @@
         },
         created() {
             var _this = this;
-            this.currentTime = moment().format('LTS');
+            this.currentTime = moment().format('hh:mm A');
             setInterval( () => _this.updateCurrentTime(), 1000);
         }
     }
@@ -29,8 +29,10 @@
 
 
 <style lang="scss" scoped>
-    h1.time {
+    .time {
         color: #FFF;
+        font-weight: 400;
+        // font-family: "OstrichSansMedium";
     }
 </style>
 

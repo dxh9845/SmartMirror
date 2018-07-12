@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <navbar></navbar>
-    <clock></clock>
+    <!-- <clock></clock> -->
   </div>
 </template>
 
@@ -19,6 +19,7 @@
 
 <style lang="scss">
   @import "./assets/scss/mirror.scss";
+  @import "./assets/scss/fonts.scss";
   @import "~bootstrap/scss/bootstrap";
   
 </style>

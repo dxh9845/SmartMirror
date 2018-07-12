@@ -38,6 +38,13 @@ module.exports = {
         })
       },
       {
+        test: /\.(woff2?|woff|ttf|otf)(\?.*)?$/,
+        loader: 'file-loader',
+        options: {
+          name: './src/assets/fonts/[name].[ext]?[hash]'
+        }
+      },
+      {
         test: /\.(png|jpg|gif|svg)$/,
         loader: 'file-loader',
         options: {
