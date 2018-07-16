@@ -15,6 +15,12 @@ npm run dev
 npm run build
 ```
 
+Copy the sample_env.txt file to a .env file in the root directory:
+
+``` bash
+mv sample_env.txt .env
+```
+
 # Functionality
 
 Current work: a clock

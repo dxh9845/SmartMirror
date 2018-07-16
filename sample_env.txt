@@ -1,0 +1,2 @@
+# Place your Todoist API token here. For more info see this page: https://todoist.com/prefs/integrations
+TODOIST_API_TOKEN=

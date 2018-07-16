@@ -6,7 +6,7 @@
 
 <script>
     import moment from 'moment';
-
+    
     export default {
         name: 'Clock',
         methods: {
@@ -16,7 +16,7 @@
         },
         data() {
             return {
-                currentTime: null
+                currentTime: null,
             }
         },
         created() {

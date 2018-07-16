@@ -1,6 +1,7 @@
-var path = require('path')
-var webpack = require('webpack')
-const ExtractTextPlugin = require("extract-text-webpack-plugin")
+var path = require('path');
+var webpack = require('webpack');
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const DotEnvWebpack = require('dotenv-webpack');
 
 module.exports = {
   entry: './src/main.js',
@@ -66,7 +67,10 @@ module.exports = {
   performance: {
     hints: false
   },
-  plugins: [new ExtractTextPlugin("main.css")],
+  plugins: [
+    new ExtractTextPlugin("main.css"),
+    new DotEnvWebpack()
+  ],
   devtool: '#eval-source-map'
 }
 
@@ -90,3 +94,4 @@ if (process.env.NODE_ENV === 'production') {
     })
   ])
 }
+
