@@ -11,7 +11,7 @@
         name: 'Clock',
         methods: {
             updateCurrentTime() {
-                this.currentTime = moment().format('hh:mm A');
+                this.currentTime = moment().format('hh:mmA');
             }
         },
         data() {
@@ -21,7 +21,7 @@
         },
         created() {
             var _this = this;
-            this.currentTime = moment().format('hh:mm A');
+            this.currentTime = moment().format('hh:mmA');
             setInterval( () => _this.updateCurrentTime(), 1000);
         }
     }
@@ -31,8 +31,9 @@
 <style lang="scss" scoped>
     .time {
         color: #FFF;
-        font-weight: 400;
-        // font-family: "OstrichSansMedium";
+        font-weight: 500;
+        // letter-spacing: 2px;
+        // font-family: "OstrichSansBlack";
     }
 </style>
 

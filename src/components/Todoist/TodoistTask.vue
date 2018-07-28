@@ -38,7 +38,7 @@
             font-size: 1.2em;
             font-weight: 700;
             letter-spacing: 0px;
-            font-family: 'Franklin Gothic Condensed';
+            font-family: 'Franklin Gothic Demi';
         }
         
 

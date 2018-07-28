@@ -1,6 +1,6 @@
 <template>
     <b-container fluid>
-        <h2 class="p-2 m-0">Todoist</h2>
+        <h2 class="p-2 m-0 marquee">Todoist</h2>
         <b-row>
             <b-col md="6"
                     v-for="proj in projects" 
@@ -74,17 +74,16 @@
 
 
 <style lang="scss" scoped>
-    h2 {
-        font-weight: 100;
+    h2.marquee {
         letter-spacing: 2px;
-        font-family: 'OstrichSansHeavy', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'OstrichSansBold', 'Arial Narrow', Arial, sans-serif;
         text-align: center;
         color: #FFF;
     }
 
     h3 {
         font-weight: 200;
-        font-family: "OstrichSansHeavy";
+        font-family: "OstrichSansBlack";
         letter-spacing: 2px;
     }
 
