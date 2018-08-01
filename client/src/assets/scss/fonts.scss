@@ -1,0 +1,60 @@
+$font-dir: "./assets/fonts";
+
+@font-face {
+    font-family: 'OstrichSansRegular';
+    src: url('#{$font-dir}/ostrich-sans/ostrich-regular-webfont.woff2') format('woff2'),
+        url('#{$font-dir}/ostrich-sans/ostrich-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OstrichSansBlack';
+    src: url('#{$font-dir}/ostrich-sans/ostrichsans-black-webfont.woff2') format('woff2'),
+        url('#{$font-dir}/ostrich-sans/ostrichsans-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'OstrichSansBold';
+    src: url('#{$font-dir}/ostrich-sans/ostrichsans-bold-webfont.woff2') format('woff2'),
+        url('#{$font-dir}/ostrich-sans/ostrichsans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'OstrichSansMedium';
+    src: url('#{$font-dir}/ostrich-sans/ostrichsans-medium-webfont.woff2') format('woff2'),
+        url('#{$font-dir}/ostrich-sans/ostrichsans-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'Franklin Gothic Book';
+    src: url('#{$font-dir}/franklin-gothic/franklingothic-book-webfont.woff2') format('woff2'),
+         url('#{$font-dir}/franklin-gothic/franklingothic-book-webfont.woff') format('woff'),
+         url('#{$font-dir}/franklin-gothic/franklingothic-book-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Franklin Gothic Demi';
+    src: url('#{$font-dir}/franklin-gothic/franklingothic-demi-webfont.woff2') format('woff2'),
+         url('#{$font-dir}/franklin-gothic/franklingothic-demi-webfont.woff') format('woff'),
+         url('#{$font-dir}/franklin-gothic/franklingothic-demi-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
