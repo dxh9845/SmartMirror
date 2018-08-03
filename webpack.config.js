@@ -77,7 +77,7 @@ module.exports = {
   plugins: [
     new ExtractTextPlugin("main.css"),
     new DotEnvWebpack({
-      path: "../.env"
+      path: ".env"
     })
   ],
   devtool: '#eval-source-map'
