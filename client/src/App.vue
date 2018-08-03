@@ -1,11 +1,7 @@
 <template>
   <div id="app">
-    <navbar>
-
-    </navbar>
-    <!-- <clock></clock> -->
+    <navbar></navbar>
     <router-view></router-view>
-    <!-- <todoist-project></todoist-project> -->
   </div>
 </template>
 
@@ -17,8 +13,6 @@
     name: 'app',
     components: {
       Navbar,
-    //   Clock,
-    //   TodoistProject
     }
   }
 </script>

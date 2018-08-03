@@ -1,6 +1,6 @@
 # SmartMirror
 
-> A Vue app that provides SmartMirror functionality to be run on IOT debices
+> A Vue app that provides SmartMirror functionality to be run on IOT devices.
 
 ## Build Setup
 
@@ -15,7 +15,11 @@ npm run dev
 npm run build
 ```
 
-Copy the sample_env.txt file to a .env file in the root directory:
+## Client setup
+
+The project contains the front end for the SmartMirror. For the server app, see the [https://github.com/dxh9845/SmartMirrorExpress](SmartMirrorExpress) app. 
+
+Copy the sample_env.txt file to a .env file in the root directory: 
 
 ``` bash
 mv sample_env.txt .env
@@ -23,9 +27,11 @@ mv sample_env.txt .env
 
 # Functionality
 
-Current work: a clock
+Current work: 
+
+* a clock
+* Todoist projects / tasks integration
 
 Coming soon: 
-1. Todoist functionality (showing projects, upcoming tasks, etc)
-2. Calendar events
-3. Alarms
+1. Calendar events
+2. Alarms and integration with Sleep as Android
