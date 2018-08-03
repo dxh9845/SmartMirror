@@ -3,6 +3,6 @@ import axios from 'axios'
 
 export default() => {
     return axios.create({
-        baseURL: `http://localhost:${process.env.CLIENT_PORT}`
+        baseURL: `${process.env.SERVER_URL}:${process.env.SERVER_PORT}`
     })
 }
